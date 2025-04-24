@@ -20,14 +20,15 @@ XAI Boost: Interpretability added with no performance drop.
 3,274 MRI images of tumorous and non-tumorous brain scans.
 Preprocessed with resizing and format normalization.
 
-📊 Results Summary
+## 📊 Results Summary
 
+| Model               | Accuracy | AUC-ROC | Parameters |
+|--------------------|----------|---------|------------|
+| EfficientNetB0     | 97.86%   | 0.9800  | 16.7M      |
+| Vision Transformer | 87.16%   | 0.9315  | 10.9M      |
+| VGG16              | 74.62%   | 0.9060  | 17.9M      |
+| Hybrid (Eff+ViT)   | 74.62%   | 0.9292  | 11.2M      |
 
-Model	                Accuracy	   AUC-ROC	     Params
-EfficientNetB0	      97.86%	     0.9800	        16.7M
-ViT	                  87.16%	     0.9315	        10.9M
-VGG16	                74.62%	     0.9060	        17.9M
-Hybrid (Eff+ViT)	    74.62%       0.9292	        11.2M
 
 ✅ Key Takeaways
 
